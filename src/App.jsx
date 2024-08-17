@@ -10,7 +10,7 @@ function App() {
   const [theme] = useAtom(themeAtom);
   return (
     <>
-      <Leva hidden />
+      <Leva />
       <UI />
       <Loader />
       <Canvas shadows camera={{ position: [0, 1, 5], fov: 50 }}>
